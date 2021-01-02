@@ -1,21 +1,14 @@
-using JWTAuthenticationWithSwagger.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using JWTAuthenticationWithSwagger.Models;
 
 namespace JWTAuthenticationWithSwagger
@@ -27,7 +20,7 @@ namespace JWTAuthenticationWithSwagger
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        private IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -35,7 +28,7 @@ namespace JWTAuthenticationWithSwagger
             services.AddControllers();
             
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=postgres"));
+                options.UseNpgsql(Configuration.GetConnectionString("ApplicationContext")));
 
             // For Identity
             services.AddIdentity<ApplicationUser, IdentityRole>()

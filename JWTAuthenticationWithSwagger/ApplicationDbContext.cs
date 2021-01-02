@@ -3,6 +3,7 @@ using JWTAuthenticationWithSwagger.Entities;
 using JWTAuthenticationWithSwagger.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace JWTAuthenticationWithSwagger
 {
@@ -10,10 +11,6 @@ namespace JWTAuthenticationWithSwagger
     {
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
-
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=postgres");
         
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {

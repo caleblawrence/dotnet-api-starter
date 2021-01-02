@@ -4,24 +4,49 @@
     <projectFile>JWTAuthenticationWithSwagger/JWTAuthenticationWithSwagger.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b871fb23-e70c-4482-ac45-0ba26c287d96" name="Default Changelist" comment="" />
+    <list default="true" id="b871fb23-e70c-4482-ac45-0ba26c287d96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JWTAuthenticationWithSwagger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JWTAuthenticationWithSwagger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Controllers/AuthenticateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Controllers/AuthenticateController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/JWTAuthenticationWithSwagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/JWTAuthenticationWithSwagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/JWTAuthenticationWithSwagger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/JWTAuthenticationWithSwagger.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/ref/JWTAuthenticationWithSwagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/bin/Debug/net5.0/ref/JWTAuthenticationWithSwagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/obj/Debug/net5.0/JWTAuthenticationWithSwagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/obj/Debug/net5.0/JWTAuthenticationWithSwagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/obj/Debug/net5.0/JWTAuthenticationWithSwagger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/obj/Debug/net5.0/JWTAuthenticationWithSwagger.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/obj/Debug/net5.0/ref/JWTAuthenticationWithSwagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JWTAuthenticationWithSwagger/obj/Debug/net5.0/ref/JWTAuthenticationWithSwagger.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/015F951A-AB19-4B4A-B0F1-25A75926E601/1D/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Models.cs" />
       <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Models/ApplicationUser.cs" />
       <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Entities/Post.cs" />
-      <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/ApplicationDbContext.cs" />
       <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Entities/Blog.cs" />
-      <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Startup.cs" />
       <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Models/Response.cs" />
+      <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/appsettings.Development.json" />
+      <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/ApplicationDbContext.cs" />
+      <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/appsettings.json" />
+      <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Startup.cs" />
+      <option value="$PROJECT_DIR$/JWTAuthenticationWithSwagger/Controllers/AuthenticateController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mUoVeAdt96HKW70tFFVdOTc619" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,13 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1609557555828</updated>
       <workItem from="1609557560830" duration="1746000" />
+      <workItem from="1609627085344" duration="1316000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
