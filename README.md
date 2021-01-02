@@ -1,0 +1,1 @@
+# dotnet-with-auth-template
