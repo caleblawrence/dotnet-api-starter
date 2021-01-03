@@ -4,7 +4,7 @@ This is a somewhat opinionated template I use to quickstart a Dotnet 5 API with 
 If you clone it, setup a database, update connection strings in the appsettings files, you will end up with a fully functioning Dotnet 5 web api with auth already taken care of (sign up and login routes are done already).
 
 ### Deploy to Azure (free)
-Run this command after creating an Azure account (and installing the azure commandline tools and run `az login`) and it'll put this app into azure for free.
+Run this command after creating an Azure account (and installing the azure commandline tools and run `az login`) and it'll put this app into azure for free. Run the same command to update the app after you have made some changes.
 ```
 az webapp up --sku F1 --name test-app-caleb --os-type linux
 ```
